@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Emergentes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\asp_servicios\asp_servicios.csproj" />
+    <ProjectReference Include="..\lib_servicios\lib_servicios.csproj" />
+    <ProjectReference Include="..\presentacion_series\presentacion_series.csproj" />
+  </ItemGroup>
+
+</Project>
